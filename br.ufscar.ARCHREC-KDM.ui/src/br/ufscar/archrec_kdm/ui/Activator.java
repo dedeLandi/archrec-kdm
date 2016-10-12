@@ -1,4 +1,4 @@
-package br.ufscar.ar_kdm.ui;
+package br.ufscar.archrec_kdm.ui;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;

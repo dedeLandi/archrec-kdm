@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="br.ufscar.archrec_kdm.ui.main"
+            commandId="br.ufscar.archrec_kdm.ui.commands.ARcommand">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               id="br.ufscar.archref_kdm.ui.menus.ARFmenu"
+               label="Architectural Reconciliation">
+            <command
+                  commandId="br.ufscar.archrec_kdm.ui.commands.ARcommand"
+                  id="br.ufscar.archrec_kdm.ui.menus.ARcommand"
+                  label="Architectural Reconciliation Wizard">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="br.ufscar.archref_kdm.ui.commands.ARFcategory"
+            id="br.ufscar.archrec_kdm.ui.commands.ARcommand"
+            name="Architectural Reconciliation Command">
+      </command>
+   </extension>
+
+</plugin>

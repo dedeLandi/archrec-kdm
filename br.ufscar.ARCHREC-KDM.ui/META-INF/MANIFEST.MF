@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Ui
-Bundle-SymbolicName: br.ufscar.ARCHREC-KDM.ui
+Bundle-SymbolicName: br.ufscar.ARCHREC-KDM.ui;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: br.ufscar.archrec_kdm.ui.Activator
 Require-Bundle: org.eclipse.ui,
